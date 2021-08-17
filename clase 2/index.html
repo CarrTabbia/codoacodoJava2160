@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<h1>MI PAGINA WEB</h1>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../clase 3/css/diseño2.css">
+</head>
+<body>
+
+    <div style="width: 800px;">
+         <h1>ESTOY ADENTRO DE UN DIV, USO DE LOS A HREF AHORA NO PARA NAVEGAR EN OTRAS PAGINAS SINO DENTRO DE LA MISMA USANDO EL NUMERAL, PARA REFERIRSE AL ID</h1>
+         <ul>
+           <li><a href="#Video">Ir a VIDEOS"</a></li>
+            <li><a href="#formulario">Ir a FORMULARIO</a></li>
+
+         </ul>
+
+
+    
+    Buenos dias
+    <h3>Ruta Absoluta - </h3>
+    <img src="" alt="">
+
+    <h3>Ruta relativa - Ocupa espacio dentro del servidor, la tenemos guardadal</h3>
+    <img src="./img/curva-del-duelo-animada1.jpg" alt="duelo">
+
+    <h2>DESCARGA PDF EN RUTA ABSOLUTA?</h2>
+    <a href="./pdf/GUION TECNICO- DIAS ATIPICOS.pdf" target="_blanck" download="SE PONE EL NOMBRE DE LA DESCARGA">PUSE UN PDF</a>
+
+ FORM ACTION PARA HACIA DONDE VA A MANDAR LA INFORMACI´ÓN
+  <form id="formulario" action="./ENVIARDO.HTML" method="POST">
+<label for="Nombre">Nombre de la etiqueta </label>
+<input type="text" name="Nombre" id="Nombre">
+<label for="Password">Contraseña de la etiqueta</label>
+<input type="password" name="password" id="password">
+<input type="submit" value="Entrar o Enviar" >
+
+
+ <h1>Tipos de input</h1>
+<label for="Radio">Input RADIO </label>
+ <input type="radio" name="radio" id="Radio">
+</form>
+
+<h3>PROVINCIAS</h3>
+<label for="Radio">GBA </label>
+ <input type="radio" name="radio" id="Radio">
+ <label for="Radio">SALTA </label>
+ <input type="radio" name="radio" id="Radio">
+
+ <h3>SELECT - TE APARECE COMO UNA LISTA PARA SELECCIONAR CUAL</h3>
+ <select >
+<option value="1"></option>
+<option value="2"></option>
+<option value="3"></option>
+<option value="4"></option>
+
+ </select>
+
+ <label for="">Lista, POSIBLIDAD DE SELECCIONAR VARIOS LENGUAJES</label>
+ <label for="">VERDE</label>
+ <input type="checkbox" name="" id="">
+ <label for="">ROJO</label>
+ <input type="checkbox" name="" id="">
+ <label for="">AMARILLO</label>
+ <input type="checkbox" name="" id="">
+
+ <h3>agregar u video desde tu carpeta</h3>
+ <video id= "Video" src="./video/MVI_0834.MP4" autoplay controls width="200px" id="video"></video>
+
+ <p> Hola <b>tala agnes varda soy</b>  <i>yo otra</i> vez </p>
+
+ <h3>DIV, CONEDORES. PARA COLOCAR LOS ELEMENTOS DENTRO DE UN CONTENEDOR</h3>
+</div>
+ 
+
+
+</body>
+</html>

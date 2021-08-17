@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(230, 122, 122);
+}
+#Etiquetas {
+background-color: thistle;
+height: 1000px;
+}
+
+li{
+display: inline;
+padding: 10px;
+border: 5px solid wheat;
+margin: 10px;
+background-color: rgba(255, 255, 0, 0.356);
+/* para que te aparezca el boton cuando te poner ahí */
+cursor: pointer;
+box-shadow: -20px 20px 4px rgba(100, 148, 237, 0.527);
+text-decoration: wavy;
+}
+  /* para que cambien de color cuando lo tocas */
+li:hover {
+background-color: rgba(238, 130, 238, 0.555);
+color: rgb(44, 136, 136);
+text-decoration: none;
+
+;
+}

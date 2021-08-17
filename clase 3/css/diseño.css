@@ -1,0 +1,11 @@
+body{
+background-color: rgba(214, 43, 43, 0.63);
+
+#Etiquetas {
+    background-color: burlywood;
+    width: 80%;
+    color: chartreuse;
+}
+.azul {
+    background-color: darkblue;
+}
